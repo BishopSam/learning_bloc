@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 
 import 'package:bloc/bloc.dart';
 
-class CounterObserver extends BlocObserver {
+class TimerObserver extends BlocObserver {
  
 
   @override

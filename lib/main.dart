@@ -4,6 +4,6 @@ import 'package:learning_bloc_/app.dart';
 import 'package:learning_bloc_/counter_observer.dart';
 
 void main() {
-  Bloc.observer = CounterObserver();
-  runApp(const CounterApp());
+  Bloc.observer = TimerObserver();
+  runApp(const TimerApp());
 }
